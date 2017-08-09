@@ -8,14 +8,12 @@
 		font-family: 'Ultra', sans-serif;   
 		font-size: 20px;
 		overflow: hidden;
-		background-color: #F2F2F2;
 		
 	}
 	.navigation{
 		margin-bottom: 10px;
 	    overflow: hidden;
 	   
-
 	}
 	.logo {
 		overflow: hidden;
@@ -72,24 +70,16 @@
 		background-size: cover;
 	}
 	.hero h2{
+		
 		position: absolute;
 		top:150px;
-		left:0;
+	  left: 0;
 		right: 0;
 		font-size: 50px;
 		z-index: 1;
 		color: white;
-	    font-variant-caps: unicase;
-	    font-weight: 600;
-	}
-	.hero p{
-		position: absolute;
-		top: 300px;
-		left: 0;
-		right: 0;
-		font-size: 20px;
-		z-index: 1;
-		color: white;
+	   font-variant-caps: unicase;
+	   font-weight: 600;
 	}
 	.hero a{
 		position: absolute;
@@ -99,8 +89,7 @@
 		font-size: 30px;
 		z-index: 1;
 		color: white;
-		text-decoration: none;
-		   
+		text-decoration: none;  
 	    font-weight: bold;
 	}
 	#hoverlink:hover {
@@ -108,46 +97,46 @@
 		
 	}
 	.heading{
-		border-left-color: red;
+
 	       padding-left: 50px;
 	}
 	.heading h2{
 		font-family: serif;
-		    font-variant-caps: small-caps;
+		font-variant-caps: small-caps;
 	}
 	.colcontainer{
 		overflow: hidden;
 		border-bottom: solid grey 0.5px ;
-	    margin-bottom: 10px;
-	    padding-bottom: 20px;
+	  margin-bottom: 10px;
+	  padding-bottom: 20px;
 
 	}
 	.column-leftp1{ 
-		
+		text-align: center;
 		float: left;
 		 width: 33%;  
 		 height:250px; 
 	}
 	.column-rightp1{
-		
+		text-align: center;
 	 float: right; 
 	 width: 33%;  
 	 height:250px; 
 	}
 	.column-centerp1{ 
-		
+		text-align: center;
 		display: inline-block;
 		 width: 34%; 
 		 height:250px;
 	}
 	.column-left{ 
-		
+		text-align: center;
 		float: left;
 		 width: 25%;  
 		 height:150px; 
 	}
 	.column-right{
-		
+		text-align: center;
 	 float: right; 
 	 width: 25%;  
 	 height:150px; 
@@ -158,13 +147,13 @@
 
 	}
 	.column-center{ 
-		
+		text-align: center;
 		display: inline-block;
 		 width: 24%; 
 		 height:150px;
 	}
 	.column-center2{ 
-		
+		text-align: center;
 		display: inline-block;
 		 width: 24%; 
 		 height:150px;
@@ -296,6 +285,9 @@
 		margin-right: 3px;
 
 	}
+	.leftcontain{
+		text-align: center;
+	}
 	.leftcontain a , .colcontainer a{
 		margin-top: 10px;
 		text-decoration: none;
@@ -309,7 +301,8 @@
 	    font-size: 20px;
 
 	}
-	#copyright{
+	.copyright{
+		text-align: center;
 		font-family: initial;
 	    font-variant-caps: all-petite-caps;
 	}
