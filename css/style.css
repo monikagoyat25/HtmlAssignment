@@ -1,4 +1,4 @@
-	body{
+body{
 		background-color: #F2F2F2;
 		display: block;
 	}
@@ -11,16 +11,19 @@
 		
 	}
 	.navigation{
-		margin-bottom: 10px;
 	    overflow: hidden;
+	    position: fixed;
+	    z-index: 1;
+	    width: 100%
 	   
 	}
 	.logo {
 		overflow: hidden;
 		float: left;
 		width: 15%;
-		height:60px;
+		height:70px;
 		position: relative;
+		background-color: #F2F2F2;
 	}
 	.logo h1{
 		font-family: serif;
@@ -28,7 +31,7 @@
 	.navbar{
 		float: left;
 		width: 85%;
-		height:50px;
+		height:70px;
 		background-color:  black;
 	}
 	nav > ul {
@@ -62,7 +65,7 @@
 		height: 50%;
 	}
 	.hero{
-		
+		margin-top: 75px;
 		width: 100%;
 		text-align: center;
 		position: relative;
